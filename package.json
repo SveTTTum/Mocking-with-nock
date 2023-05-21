@@ -4,7 +4,7 @@
   "description": "a project used for the unit testing with NodeJS home task",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit",
+    "test": "jest --forceExit --coverage",
     "start-server": "node ./src/server/server.js",
     "eslint": "eslint ./",
     "coverage": "nyc npm run test"
