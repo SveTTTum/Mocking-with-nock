@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "start-server": "node ./src/server/server.js",
-    "eslint": "eslint ./"
+    "eslint": "eslint ./",
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
