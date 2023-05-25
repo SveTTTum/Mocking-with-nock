@@ -58,6 +58,5 @@ test('find user by parameters', async () => {
     id: 2,
     name: 'Ervin Howell'
   }
-  expect(userDataHandler.findUsers(user)).toEqual([{"address": {"city": "Wisokyburgh", "geo": {"lat": "-43.9509", "lng": "-34.4618"}, 
-  "street": "Victor Plains", "suite": "Suite 879", "zipcode": "90566-7771"}, "company": {"bs": "synergize scalable supply-chains", "catchPhrase": "Proactive didactic contingency", "name": "Deckow-Crist"}, "email": "Shanna@melissa.tv", "id": 2, "name": "Ervin Howell", "phone": "010-692-6593 x09125", "username": "Antonette", "website": "anastasia.net"}])
+  expect(userDataHandler.findUsers(user)).toEqual([userDataHandler.users[1]])
 })
