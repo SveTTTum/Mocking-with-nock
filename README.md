@@ -6,13 +6,7 @@
 # INSTALLATION
 
 ```
-yarn
-```
-
-or
-
-```
-yarn install
+npm install
 ```
 
 # USAGE
@@ -21,4 +15,16 @@ In order to use the UserDataHandler class you need to have the server running.
 To do so you need to execute the following command in a separate terminal:
 ```
 npm run start-server
+```
+
+# RUNNING TESTS
+
+```
+npm test
+```
+
+# CHECKING COVERAGE USING NYC
+
+```
+npm run coverage
 ```
